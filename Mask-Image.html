@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mask-Image</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            color: white;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .mask{
+            margin: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .mask{
+            -webkit-mask-image: url(Image/Rajpurohit.png);
+            mask-image: url(Image/Rajpurohit.png);
+            -webkit-mask-repeat: no-repeat;
+            /* width: -webkit-fill-available; */
+            mask-repeat: no-repeat;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1> The mask-image Property</h1>
+    
+    <div class="mask">
+        <img src="https://images.pexels.com/photos/589819/pexels-photo-589819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="alrt" width="100%" height="auto">
+    </div>
+
+   
+    
+    
+   
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content{
+            display: flex;
+            justify-content: center;
+           
+            margin: 200px;
+            text-align: center;
+
+        }
+        .table-content{
+            text-align: center;
+            padding: 3px;
+            width: 100%;
+            height: auto;
+            position: relative;
+            text-transform: uppercase;
+            padding-bottom: 100px;
+        }
+        .table-content{
+            background: linear-gradient(180deg, rgba(19,70,190,0.9858156028368794) 0%, rgba(5,2,47,1) 99%);
+        }
+        .table-header{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-weight: 900;
+            font-family: 'Saira Condensed', sans-serif;
+            margin: 55px;
+            
+        }
+        .first-header{
+            font-size: 38px;
+        }
+        .second-header{
+            font-size: 25px;
+        }
+        .table-box{
+            font-family: 'Saira Condensed', sans-serif;
+        
+        }
+        .main-content{
+            width: 100%;
+            
+        }
+       .th-content {
+            border: 3px solid white;
+            display: flex;
+            justify-content: space-around;
+            width: 92%;
+            padding: 15px;
+            margin-left: 4%;
+            border-left: none;
+            border-right: none;
+           font-size: 35px;
+           color: white;
+        }
+        .team, .Player, .today, .total{
+            border: 3px solid white;
+            border-bottom: none;
+            border-top: none;
+            border-right: none;
+        }
+        .team{
+            width: 0%;
+            border: none;
+        }
+        .Player{
+            width: 45%;
+        }
+        .today{
+            width: 5%;
+            padding-left: 38px;
+        }
+        .total{
+            width: 5%;
+            padding-left: 22px;
+        }
+        .img{
+            float: left;
+            width: 100px;
+            
+
+        }
+        .row{
+            display: flex;
+            justify-content: space-around;
+            border: 3px solid white;
+            margin-top: 53px;
+            width: 85%;
+            float: right;
+            background-color: white;
+            border-radius: 50px;
+        }
+        .row{
+            padding: 15px;
+            font-size: 35px;
+            margin-right: 70px;
+            color: #223d97;
+        }
+        .player-name{
+            margin-left: 135px;
+        }
+        .line-1{
+            
+            height: 53px;
+            border: 3px solid blue;
+            border-radius: 6px;
+            margin: 0 295px;
+
+        }
+        .line-2{
+            height: 53px;
+            border: 3px solid blue;
+            border-radius: 6px;
+
+        }
+        .day{
+            margin: 0 -260px;
+            padding-right: 300px;
+            padding-top: 5px;
+
+        }
+       
+        .img{
+            width: 0;
+        }
+        .image-size{
+            clip-path: circle(45% at 50% 50%);
+            width: 120px;
+            margin: 40px 122px;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+            color: white;
+        }
+
+        .your-logo{
+            border: 2px solid white;
+            border-style: dashed;
+            width: 100px;
+            padding: 30px 16px 24px 13px;
+            margin-left: 95px;
+            font-weight: 900;
+            font-size: 20px;
+
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            margin: 40px 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="table-content">
+                    <div class="table-header">
+                    <div class="first-header"> LEADERBOARD UPDATE </div>
+                    <div class="space-between"></div>
+                    <div class="second-header"> GOAL SCORE </div>
+                </div>
+        <div class="table-box">
+            <table class="main-content">
+                <tr>
+                    <div class="th-content">
+                    <div class="team"> team </div>
+                    <div class="Player"> player </div>
+                    <div class="today"> Today</div>
+                    <div class="total"> Total </div>
+                </div>
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                    <div class="row">
+                      
+                        <div class="player-name"> PALAYER NAME HERE </div>
+                        <div class="line-1"></div><div class="day"> 3 </div> 
+                        <div class="line-2"></div><div class="total-number"> 34 </div>
+                    </div>
+
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                    <div class="row">
+                      
+                        <div class="player-name"> PALAYER NAME HERE </div>
+                        <div class="line-1"></div><div class="day"> 3 </div> 
+                        <div class="line-2"></div><div class="total-number"> 34 </div>
+                    </div>
+
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                    <div class="row">
+                      
+                        <div class="player-name"> PALAYER NAME HERE </div>
+                        <div class="line-1"></div><div class="day"> 3 </div> 
+                        <div class="line-2"></div><div class="total-number"> 34 </div>
+                    </div>
+
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                    <div class="row">
+                      
+                        <div class="player-name"> PALAYER NAME HERE </div>
+                        <div class="line-1"></div><div class="day"> 3 </div> 
+                        <div class="line-2"></div><div class="total-number"> 34 </div>
+                    </div>
+
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                    <div class="row">
+                      
+                        <div class="player-name"> PALAYER NAME HERE </div>
+                        <div class="line-1"></div><div class="day"> 3 </div> 
+                        <div class="line-2"></div><div class="total-number"> 34 </div>
+                    </div>
+
+                </tr>
+                <tr>
+                    <div class="img"> <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""> </div>
+                </tr>
+            </table>
+        </div>
+        <div class="bottom">
+            <div class="your-logo"> YOUR LOGO </div>
+            <a class="www" href="#"> WWW.YOURWEBPAGEHERE.COM</a>
+        </div>
+                
+    </div>
+</body>
+</html>

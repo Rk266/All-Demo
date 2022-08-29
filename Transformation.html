@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            justify-content: center;
+        }
+        div{
+            width: 320px;
+            transition-duration: 3s;
+        }
+        img{
+            width: 100%;
+        }
+        .d0:hover{
+            transform: translate(50px, 50px);
+        }
+        .d1:hover{
+            transform: rotate(180deg);
+        }
+        .d2:hover{
+            transform: scale(20, 25);
+        }
+
+        .d3:hover{
+            transform: skew(25deg, 20deg);
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="left"><div class="d0"> <img src="Image/horror.jpg"><h2>Translate</h2> </div></marquee>
+    <br>
+    <br>
+    <marquee direction="right"><div class="d1"> <img src="Image/minians.jpg"><h2>Rotate</h2></div></marquee>
+    <br>
+    <br>
+    <marquee direction="down"><div class="d2"> <img src="Image/aev.webp"><h2>Scale</h2> </div> </marquee> 
+    <br>
+    <br>
+    <marquee direction="up"><div class="d3"> <img src="Image/clip.jpg"><h2>Skew</h2> </div></marquee>   
+</body>
+</html>

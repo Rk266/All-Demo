@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Saira+Condensed:wght@600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content{
+            display: flex;
+            justify-content: center;
+            /* height: 115vh; */
+            margin: 200px;
+            text-align: center;
+
+        }
+        .table-content{
+            text-align: center;
+            padding: 58px;
+            width: 100%;
+            height: auto;
+            position: relative;
+            padding-bottom: 100px;
+        }
+        .table-content{
+            background: linear-gradient(180deg, rgba(19,70,190,0.9858156028368794) 0%, rgba(5,2,47,1) 99%);
+        }
+        .table-header{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-weight: 900;
+            font-family: 'Saira Condensed', sans-serif;
+            
+        }
+        .first-header{
+            font-size: 38px;
+        }
+        .second-header{
+            font-size: 25px;
+        }
+        .main-content{
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+            width: 100%;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .main-content td{
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            border-right: 2px solid white;
+        }
+        .main-content td:last-child{
+            border-right: none;
+        }
+        
+        /* .th-content{
+            display: flex;
+            justify-content: center ;
+            width: 45px;
+            border-bottom: 2px;;
+        } */
+        .row{
+            margin-top: 52px;
+            width: 100%;
+            color: rgb(30, 1, 134);
+            /* border: 2px solid white; */
+            border-radius: 0 25px 25px 0;
+            font-size: 30px;
+            transform: scale;
+        }
+        .row td div{
+            background-color: white;
+        }
+        .tot{
+            border-radius: 0 25px 25px 0;
+        }
+        .to{
+            border-right: 2px solid rgb(30, 1, 134);
+            border-left: 2px solid rgb(30, 1, 134);
+        }
+        .img-contetn{
+            width: 0;
+        }
+        .image-size{
+            clip-path: circle(45% at 50% 50%);
+            width: 90px;
+            margin: 0 76px;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+            color: white;
+        }
+
+        .your-logo{
+            border: 2px solid white;
+            border-style: dashed;
+            width: 100px;
+            padding: 30px 16px 24px 13px;
+            margin-left: 95px;
+            font-weight: 900;
+            font-size: 20px;
+
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            margin: 40px 140px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="table-content">
+                    <div class="table-header">
+                    <div class="first-header"> LEADERBOARD UPDATE </div>
+                    <div class="space-between"></div>
+                    <div class="second-header"> GOAL SCORE </div>
+                </div>
+                <table class="main-content">
+                    <tr>
+                        <td colspan="4" height="2px"></td>
+                    </tr>
+                    <tr>
+                            
+                            <td class="team" width="20%">TEAM</td>
+                            <td class="peam" width="40%" >PLAYER</td>
+                            <td class="tteam" width="20%" >TODAY</td>
+                            <td class="to" width="20%">TOTAL</td>
+                           
+                         
+                  </tr>
+                  <tr>
+                      <td colspan="4" height="2px"></td>
+                  </tr>
+
+           </table>
+           <table class="row" cellpadding="0" cellspacing="0">
+               <tr>
+                   <td></td>
+               </tr>
+               <tr>
+                   <td width="8%">
+                       <div class="img-contetn">
+                           <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt="">
+                       </div>
+                   </td>
+                   <td width="40%">
+                       <div class="pl" >
+                           Player name here
+                       </div>
+                   </td>
+                   <td width="20%">
+                    <div class="to">
+                        3
+                    </div>
+                </td>
+                <td width="20%">
+                    <div class="tot">
+                        34
+                    </div>
+                </td>
+               </tr>
+            </table>
+            <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td width="8%">
+                        <div class="img-contetn">
+                            <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt="">
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <div class="pl" >
+                            Player name here
+                        </div>
+                    </td>
+                    <td width="20%">
+                     <div class="to">
+                         3
+                     </div>
+                 </td>
+                 <td width="20%">
+                     <div class="tot">
+                         34
+                     </div>
+                 </td>
+                </tr>
+             </table>
+             <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td width="8%">
+                        <div class="img-contetn">
+                            <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt="">
+                        </div>
+                    </td>
+                    </td>
+                    <td width="40%">
+                        <div class="pl" >
+                            Player name here
+                        </div>
+                    </td>
+                    <td width="20%">
+                     <div class="to">
+                         3
+                     </div>
+                 </td>
+                 <td width="20%">
+                     <div class="tot">
+                         34
+                     </div>
+                 </td>
+                </tr>
+             </table>
+             <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td width="8%">
+                        <div class="img-contetn">
+                            <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt="">
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <div class="pl" >
+                            Player name here
+                        </div>
+                    </td>
+                    <td width="20%">
+                     <div class="to">
+                         3
+                     </div>
+                 </td>
+                 <td width="20%">
+                     <div class="tot">
+                         34
+                     </div>
+                 </td>
+                </tr>
+             </table>
+             <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td width="8%">
+                        <div class="img-contetn">
+                            <img class="image-size" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt="">
+                        </div>
+                    </td>
+                    <td width="40%">
+                        <div class="pl" >
+                            Player name here
+                        </div>
+                    </td>
+                    <td width="20%">
+                     <div class="to">
+                         3
+                     </div>
+                 </td>
+                 <td width="20%">
+                     <div class="tot">
+                         34
+                     </div>
+                 </td>
+                </tr>
+             </table>
+
+
+             <div class="bottom">
+                 <div class="your-logo"> YOUR LOGO </div>
+                 <a class="www" href="#"> WWW.YOURWEBPAGEHERE.COM</a>
+             </div>
+       
+       
+        </div>
+        
+
+
+
+
+    </div>
+    
+</body>
+</html>

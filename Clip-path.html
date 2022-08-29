@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip-Path</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            }
+        .circle{
+
+            clip-path: circle(15% at 50% 50%);
+        }
+        .ellipse{
+                clip-path: ellipse(10% 40% at 50% 50%);
+        }
+        .inset{
+            clip-path: inset(5% 20% 15% 10%);
+        }
+        .polygon{
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%  )
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Clip-path:-</h1>
+    <img class="circle" src="Image/clip.jpg" alt="wait">
+    <br>
+    <hr>
+    <br>
+    <img class="ellipse" src="Image/clip.jpg" alt="wait">
+    <br>
+    <hr>
+    <br>
+    <img class="inset" src="Image/clip.jpg" alt="wait">
+    <br>
+    <hr>
+    <br>
+    <img class="polygon" src="Image/clip.jpg" alt="wait">
+    <br>
+    <hr>
+    <br>
+    <div id="box">
+
+    </div>
+</body>
+</html>

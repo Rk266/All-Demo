@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .content{
+            width: 100%;
+            height: 900px;
+            background: #000;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 300px;
+            height: 200px;
+            background: orange;
+            border: 2px solid gray;
+            border-radius: 15px;
+        }
+        /* animation element */
+        .main{
+            animation-name: start;
+            animation-duration: 5s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes start{
+            0% {
+                background-color: orange; left:0px; top:0;
+            }
+             20% {
+                background-color: white; left:200px; top:0px;
+            }
+            40%{
+                background-color: green; left:200px; top:200px;
+            }
+            60% {
+                background-color: white; left:0px; top:200px;
+            }
+            80% {
+                background-color: orange; left:0px; top:0px;
+            }
+
+        }
+
+        /* Three blocks */
+        .blocks{
+           position: absolute;
+           top: 70px;
+           display: flex;
+           
+        
+        }
+
+        .orange{
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            border-radius: 15px;
+            position: relative;
+            animation-name: flag1;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            /* animation-timing-function: linear; */
+        }
+        .orange{
+            transition-duration: 4s;
+        }
+        .orange:hover{
+            transform: rotateZ(360deg);
+        }
+
+        .white{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 15px;
+            position: relative;
+            margin-left: 50px;
+            animation-name: flag2;
+            animation-duration: 5s;
+            animation-delay: 6s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate;
+            animation-timing-function: linear; */
+            
+        }
+        .white{
+            transition-duration: 4s;
+        }
+        .white:hover{
+            transform: rotateZ(360deg);
+        }
+        .green{
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            border-radius: 15px;
+            position: relative;
+            margin-left: 50px;
+            animation-name: flag3;
+            animation-duration: 5s;
+            animation-delay: 9s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate;
+            animation-timing-function: linear; */
+        }
+        .green{
+            transition-duration: 4s;
+        }
+        .green:hover{
+            transform: rotateZ(360deg);
+        }
+
+         @keyframes flag1{
+            0% {
+                background-color: orange; left:0px; top:0;
+            }
+             20% {
+                background-color: white; left:300px; top:0px;
+            }
+            40%{
+                background-color: green; left:300px; top:300px;
+            }
+            60% {
+                background-color: white; left:0px; top:300px;
+            }
+            80% {
+                background-color: orange; left:0px; top:0px;
+            }
+        
+        } 
+
+          @keyframes flag2{
+            0% {
+                background-color: white; left:0px; top:0px;
+            }
+            20% {
+                background-color: green; left:300px; top:0px;
+            }
+            40%{
+                background-color: white; left:300px; top:300px;
+            }
+            60% {
+                background-color: orange; left:0px; top:300px;
+            }
+            80% {
+                background-color: white; left:0px; top:0px;
+            } 
+        } 
+
+
+        @keyframes flag3{
+            0% {
+                background-color: green; left:0px; top:0px;
+            }
+            20% {
+                background-color: white; left:200px; top:0px;
+            }
+            40%{
+                background-color: orange; left:200px; top:200px;
+            }
+            60% {
+                background-color: white; left:0px; top:200px;
+            }
+            80% {
+                background-color: green; left:0px; top:0px;
+            }
+           
+        }  
+
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="main"></div>
+   
+
+
+        <div class="blocks">
+             <div class="orange"> </div>
+             <div class="white"> </div>
+             <div class="green"></div>
+        </div>
+</div>
+</body>
+</html>
